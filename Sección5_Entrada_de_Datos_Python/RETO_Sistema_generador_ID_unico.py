@@ -28,7 +28,7 @@ ID_aleatirio = randint(1000,9999)
 ID_aleatirio = str(ID_aleatirio)   
 
 # Paso 2. Normalizar la información
-nombre_usuario_mayusculas = nombre_usuario.upper()
+nombre_usuario_mayusculas = nombre_usuario.strip().upper()
 apellido_usuario_mayusculas = apellido_usuario.upper()
 ID_generado = nombre_usuario_mayusculas[:2] + apellido_usuario_mayusculas[:2] + año_nacimiento[-2:] + ID_aleatirio
 
