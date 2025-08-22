@@ -29,3 +29,4 @@ print(f'Residuo de la division: {modulo}')
 # Exponente (potencia) **
 exponente = a ** b #10 elevado a la 3 = 10*10*10=1000
 print(f'Exponente: {exponente}')
+
